@@ -69,6 +69,14 @@ public class IntegerAssertionTest {
       Assert.assertEquals(ia.isTrue(12, 8), true, "Message: ");  
     }
     
+    @Test
+    public static void testAddShort(){
+        short a = -16384;
+        short b = -16384;
+        
+        Assert.assertEquals(ia.addShort(a, b), -32768);
+    }
+    
     @BeforeClass
     public static void setUpClass() throws Exception {
         ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);

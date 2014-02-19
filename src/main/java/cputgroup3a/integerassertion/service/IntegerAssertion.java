@@ -16,5 +16,6 @@ public interface IntegerAssertion {
     public byte compByte(byte a);
     public int multiply(int a, int b);
     public long addLong(long a, long b);
+    public short addShort(short a, short b);
     
 }

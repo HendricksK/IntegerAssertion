@@ -48,5 +48,9 @@ public class IntegerAssertionImpl implements IntegerAssertion {
         return a + b;
     }
     
-    
+    @Override
+    public short addShort(short a, short b){
+        System.out.println("The calculation shoudl equal: " + a + b);
+        return (short) (a + b);
+    }
 }
