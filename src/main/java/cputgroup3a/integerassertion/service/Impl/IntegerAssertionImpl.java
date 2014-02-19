@@ -31,9 +31,9 @@ public class IntegerAssertionImpl implements IntegerAssertion {
     }
     
     @Override
-    public byte compByte(byte b){
-        System.out.println("Byte is: " + b);
-        return b;
+    public byte compByte(byte a){
+        System.out.println("Byte is: " + a);
+        return a;
     }
     
     @Override

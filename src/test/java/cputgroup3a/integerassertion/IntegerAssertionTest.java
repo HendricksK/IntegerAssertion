@@ -47,17 +47,21 @@ public class IntegerAssertionTest {
     
     @Test
     public static void testCompByte(){
-        //Assert.assertEquals(ia.compByte(10100110), 10100110);
+        byte b1 = 123;
+        byte b2 = 123;
+        Assert.assertEquals(ia.compByte(b1), b2);
     }
     
     @Test
     public static void testMuntiply(){
-        Assert.assertEquals(ia.multiply(10, 20), 2000);
+        Assert.assertEquals(ia.multiply(10, 20), 200);
     }
     
     @Test
     public static void testAddLong(){
-        Assert.assertEquals(ia.addLong(123123, 456456), 579579);
+        
+        
+        Assert.assertEquals(ia.addLong(12345, 78945), 91290);
     }
     
     @Test

@@ -13,7 +13,7 @@ package cputgroup3a.integerassertion.service;
 public interface IntegerAssertion {
     public boolean isTrue(int a, int b);
     public char compChar(char A);
-    public byte compByte(byte b);
+    public byte compByte(byte a);
     public int multiply(int a, int b);
     public long addLong(long a, long b);
     
